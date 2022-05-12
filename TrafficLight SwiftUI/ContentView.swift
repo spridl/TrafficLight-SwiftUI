@@ -25,31 +25,32 @@ struct ContentView: View {
                 .ignoresSafeArea()
             VStack {
                 SwiftLightView(color: .red.opacity(redLight))
+                    .padding()
                 SwiftLightView(color: .yellow.opacity(yellowLight))
+                    .padding(.bottom)
                 SwiftLightView(color: .green.opacity(greenLight))
                 Spacer()
+                
                 Button(action: switchLight) {
                     Text(textButton)
                 }
-                    .foregroundColor(.white)
-                    .frame(width: 150, height: 40)
-                    .overlay(RoundedRectangle(cornerRadius: 5) .stroke(Color.white, lineWidth: 3))
-                    .background(Color.blue)
-                    .cornerRadius(5)
-                    .padding(.bottom)
-                    .font(.title)
+                .foregroundColor(.white)
+                .frame(width: 150, height: 40)
+                .overlay(RoundedRectangle(cornerRadius: 5) .stroke(Color.white, lineWidth: 5))
+                .background(Color.blue)
+                .cornerRadius(5)
+                .padding(.bottom)
+                .font(.title)
             }
-
         }
-        
     }
     
     @State private var currentLight = CurrentLight.red
     
+    private let lightIsOn = 1.0
+    private let lightIsOff = 0.5
+    
     private func switchLight() {
-        
-        let lightIsOn = 1.0
-        let lightIsOff = 0.5
         
         if textButton == "START" {
             textButton = "NEXT"
@@ -76,5 +77,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+.previewInterfaceOrientation(.portrait)
     }
 }
