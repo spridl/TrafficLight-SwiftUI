@@ -11,6 +11,7 @@
 		95DC6FE2282D0E75003E1DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC6FE1282D0E75003E1DE5 /* ContentView.swift */; };
 		95DC6FE4282D0E76003E1DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DC6FE3282D0E76003E1DE5 /* Assets.xcassets */; };
 		95DC6FE7282D0E76003E1DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DC6FE6282D0E76003E1DE5 /* Preview Assets.xcassets */; };
+		95DC6FEE282D16E6003E1DE5 /* SwiftLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC6FED282D16E6003E1DE5 /* SwiftLightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		95DC6FE1282D0E75003E1DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95DC6FE3282D0E76003E1DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95DC6FE6282D0E76003E1DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95DC6FED282D16E6003E1DE5 /* SwiftLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				95DC6FDF282D0E75003E1DE5 /* TrafficLight_SwiftUIApp.swift */,
 				95DC6FE1282D0E75003E1DE5 /* ContentView.swift */,
+				95DC6FED282D16E6003E1DE5 /* SwiftLightView.swift */,
 				95DC6FE3282D0E76003E1DE5 /* Assets.xcassets */,
 				95DC6FE5282D0E76003E1DE5 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				95DC6FE2282D0E75003E1DE5 /* ContentView.swift in Sources */,
 				95DC6FE0282D0E75003E1DE5 /* TrafficLight_SwiftUIApp.swift in Sources */,
+				95DC6FEE282D16E6003E1DE5 /* SwiftLightView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
